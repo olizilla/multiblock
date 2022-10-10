@@ -134,7 +134,7 @@ A CAR header that:
 * Must have a single root that MUST be a `multiblock` CID.
    * CID of the CID Set.
     * This CID MUST use `lmh`.
-Must include a property `multiblock` that is a List of two entries
+* Must include a property `multiblock` that is a List of two entries
   * CID of the Block Set.
     * This CID MUST use `lmh`.
   * CID of the `multiblock` codec, which is a multihash of the CAR body
